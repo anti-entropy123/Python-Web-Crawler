@@ -1,0 +1,51 @@
+2020-03-25 19:39:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tjuyjn.top/> (referer: None)
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/>
+{'tags': ['软件工程'], 'title': 'software engineering 笔记'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/>
+{'tags': ['python'], 'title': 'python拯救计划'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/>
+{'tags': ['GAN', 'tensorflow', '深度学习'], 'title': '机器学习入门'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/>
+{'tags': ['计算机网络'], 'title': '计网 summary'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/>
+{'tags': ['java'], 'title': 'Java 常用方法总结'}
+http://tjuyjn.top/page/2/
+2020-03-25 19:39:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tjuyjn.top/page/2/> (referer: http://tjuyjn.top/)
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/2/>
+{'tags': ['OS', 'Reverse', 'c语言', 'linux', 'smtp', '文件系统', '汇编', '网络'],
+ 'title': '一些有趣的实验'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/2/>
+{'tags': ['linux'], 'title': 'linux 常用命令'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/2/>
+{'tags': ['misc', 'python'], 'title': '拼接图像'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/2/>
+{'tags': ['CTF', '随笔'], 'title': 'CTF-writeup'}
+2020-03-25 19:39:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/2/>
+{'tags': ['PHP反序列化漏洞', 'RCE', 'URL重定向', 'csrf', 'sql注入', 'xss', '文件包含漏洞', '越权'],
+ 'title': 'Pikachu 漏洞练习平台'}
+http://tjuyjn.top/page/3/
+2020-03-25 19:39:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tjuyjn.top/page/3/> (referer: http://tjuyjn.top/page/2/)
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/3/>
+{'tags': ['web', '文件上传漏洞', '文件包含漏洞'], 'title': 'CheckIn'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/3/>
+{'tags': ['arp欺骗', 'web', '中间人攻击'], 'title': 'arp欺骗 初见'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/3/>
+{'tags': ['linux提权', 'metasploit', 'web'], 'title': 'Node靶机练习'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/3/>
+{'tags': ['python', 'word'], 'title': 'python自动化处理word文档'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/3/>
+{'tags': ['mysql基本语法', 'sql注入', 'web'], 'title': 'sqli-lab闯关记录'}
+http://tjuyjn.top/page/4/
+2020-03-25 19:39:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tjuyjn.top/page/4/> (referer: http://tjuyjn.top/page/3/)
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/4/>
+{'tags': ['web', '主机扫描'], 'title': 'Nmap 学习笔记'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/4/>
+{'tags': ['linux', 'misc'], 'title': '一个有意思的小工具——aview'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/4/>
+{'tags': ['awd', 'linux权限控制', 'metasploit', '不死马', '反弹shell'],
+ 'title': '实战中可能会用到的几个技巧'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/4/>
+{'tags': ['python'], 'title': '用python给女神刷赞会发生什么？'}
+2020-03-25 19:39:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tjuyjn.top/page/4/>
+{'tags': ['php', '一句话木马', '图片马', '文件上传漏洞'], 'title': '上传漏洞'}
+http://tjuyjn.top/page/4/

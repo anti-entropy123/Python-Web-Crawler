@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<item><title>software engineering 笔记</title><tags><value>软件工程</value></tags></item>
+<item><title>python拯救计划</title><tags><value>python</value></tags></item>
+<item><title>机器学习入门</title><tags><value>GAN</value><value>tensorflow</value><value>深度学习</value></tags></item>
+<item><title>计网 summary</title><tags><value>计算机网络</value></tags></item>
+<item><title>Java 常用方法总结</title><tags><value>java</value></tags></item>
+<item><title>一些有趣的实验</title><tags><value>OS</value><value>Reverse</value><value>c语言</value><value>linux</value><value>smtp</value><value>文件系统</value><value>汇编</value><value>网络</value></tags></item>
+<item><title>linux 常用命令</title><tags><value>linux</value></tags></item>
+<item><title>拼接图像</title><tags><value>misc</value><value>python</value></tags></item>
+<item><title>CTF-writeup</title><tags><value>CTF</value><value>随笔</value></tags></item>
+<item><title>Pikachu 漏洞练习平台</title><tags><value>PHP反序列化漏洞</value><value>RCE</value><value>URL重定向</value><value>csrf</value><value>sql注入</value><value>xss</value><value>文件包含漏洞</value><value>越权</value></tags></item>
+<item><title>CheckIn</title><tags><value>web</value><value>文件上传漏洞</value><value>文件包含漏洞</value></tags></item>
+<item><title>arp欺骗 初见</title><tags><value>arp欺骗</value><value>web</value><value>中间人攻击</value></tags></item>
+<item><title>Node靶机练习</title><tags><value>linux提权</value><value>metasploit</value><value>web</value></tags></item>
+<item><title>python自动化处理word文档</title><tags><value>python</value><value>word</value></tags></item>
+<item><title>sqli-lab闯关记录</title><tags><value>mysql基本语法</value><value>sql注入</value><value>web</value></tags></item>
+<item><title>Nmap 学习笔记</title><tags><value>web</value><value>主机扫描</value></tags></item>
+<item><title>一个有意思的小工具——aview</title><tags><value>linux</value><value>misc</value></tags></item>
+<item><title>实战中可能会用到的几个技巧</title><tags><value>awd</value><value>linux权限控制</value><value>metasploit</value><value>不死马</value><value>反弹shell</value></tags></item>
+<item><title>用python给女神刷赞会发生什么？</title><tags><value>python</value></tags></item>
+<item><title>上传漏洞</title><tags><value>php</value><value>一句话木马</value><value>图片马</value><value>文件上传漏洞</value></tags></item>
+</items>
