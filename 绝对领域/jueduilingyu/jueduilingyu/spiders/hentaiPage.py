@@ -12,7 +12,7 @@ class HentaipageSpider(scrapy.Spider):
     # start_urls = ['http://httpbin.org/get']
 
     def start_requests(self):
-        for i in range(1, 147):
+        for i in range(1, 149):
             request = scrapy.Request(
                 url=self.start_urls[0], 
                 callback=self.parse,
@@ -43,6 +43,9 @@ class HentaipageSpider(scrapy.Spider):
 
     def parse(self, response):
         articles = response.css('.pos-r.cart-list')
+        with open('result.html', 'w', encoding='utf8') as f:
+            f.write(response.text)
+
         for i in articles:
             stars = int(i.xpath("./div[2]/div[3]/text()[4]").extract_first())
             tags = i.css('.list-category.bg-blue-light.color::text').extract()

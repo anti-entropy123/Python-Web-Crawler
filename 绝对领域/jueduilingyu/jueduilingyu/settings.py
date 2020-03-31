@@ -72,7 +72,7 @@ IMAGES_STORE = './images'
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'jueduilingyu.pipelines.ImagesPipeline': 300,
+   'jueduilingyu.pipelines.ImagePipeline': 300,
    'jueduilingyu.pipelines.MySQLPipeline': 301
 }
 

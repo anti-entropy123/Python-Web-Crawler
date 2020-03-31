@@ -70,7 +70,6 @@ class ImagePipeline(ImagesPipeline):
     def __init__(self, store_uri, download_func=None, settings=None):
         super().__init__(store_uri, download_func=download_func, settings=settings)
 
-
     def item_completed(self, results, item, info):
         iamge_paths = [x['path'] for ok, x in results if ok]
         if not iamge_paths:
@@ -79,10 +78,12 @@ class ImagePipeline(ImagesPipeline):
 
     def get_media_requests(self, item, info):
         if isinstance(item, ImageItem):
-            request = Request(item['image_urls'], meta={'title': item['title']}, dont_filter=True)
-            yield request
+            for i in item['image_urls']:
+                request = Request(i, meta={'title': item['title']}, dont_filter=True)
+                yield request
         else:
             return item
+        
+    def file_path(self, request, response=None, info=None):
+        return "/".join([request.meta['title'] ,request.url.split('/')[-1]])
  
-    # def file_path(self, request, response=None, info=None):
-    #     return request.url.split('/')[-1]
