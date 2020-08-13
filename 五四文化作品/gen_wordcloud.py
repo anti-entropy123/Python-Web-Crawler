@@ -59,7 +59,7 @@ def generate_word_cloud(wordlist: str):
         scale=5  # 字间距
     )
     w.generate(wordlist)
-    w.to_file('output.png')
+    w.to_file('./output.png')
 
 
 if __name__ == "__main__":
